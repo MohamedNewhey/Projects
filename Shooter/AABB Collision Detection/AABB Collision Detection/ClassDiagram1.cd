@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAQAAAAAAAgQAACAAAAQBAACAAAAEAAAAAAAwgAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACgAAAAAAIQQCAAAAAAAAAAAAAAAAABAAAAAAIAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelMap" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAAAAAwAAAAAAAAAAAAAAAAGAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAoAEAQQCAAAAAAQAAAEEAAAACBAAAQBAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationManager" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EowQAAIBQIAAEAYAAAAAAAAAwAAEACAAAABBAABgQAA=</HashCode>
+      <FileName>Application Manager\ApplicationManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EulerCamera" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiQAAAAAACAABAUAACAAAQAAQCIGIAgAEgBBgAAABwA=</HashCode>
+      <FileName>EulerCamera\EulerCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyFrameAnimationShader" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAIAAEAAgAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>GraphicsDevice\KeyFrameAnimationShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderProgram" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAQBgEAgAACAAEAABAEAAQAA=</HashCode>
+      <FileName>GraphicsDevice\ShaderProgram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQoBAABAICAgyAAAgAIACAIAAGAAACBAICEQEABYiI=</HashCode>
+      <FileName>Renderer\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgQAAABAAgAQAQAAAAAAAAAAAAAAAAAIwAAAAAAA=</HashCode>
+      <FileName>Texture\texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRAAAAAAAAIgAwAAACAAAAAABCAAAAEQAAgAAEAAQAA=</HashCode>
+      <FileName>Model\Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMD2Model" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAUEAAEBERAAAAAMAACAAAKAAAAAAAABCgEAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVertexBufferObject" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAIABAAQAAAEABCBIAAAAIBAAAAQQAAAAEEk=</HashCode>
+      <FileName>MD2Model\vertexBufferObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model3D" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEkAAAQAAAAAAAIAQAACAAAACABAEAEAAEAg=</HashCode>
+      <FileName>Scene\Model3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelNode" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAARAAAAAAAAAAAAEABICQBAAAAAAAEA=</HashCode>
+      <FileName>Scene\ModelNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexturedModel" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAABAAAAAAAAAAAgAAAAAAAAAAAAE=</HashCode>
+      <FileName>Scene\TexturedModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABoundingBox" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAACCAwIIIAAIAMAAAAAAAAEAEAAAAAAA=</HashCode>
+      <FileName>CollisionDetection\AABoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollidableModel" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAACAAAYgAAABQAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDetection\CollidableModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAQAAAAAAABAAAAAAAAAAAQAAAAACQAAI=</HashCode>
+      <FileName>CollisionDetection\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyBox" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAwAAQAAABAAAAAAAAAAABAAAAEAAAAA=</HashCode>
+      <FileName>SkyBox\SkyBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StaticModelShaderAttributes" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAACAAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>Renderer\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_1" Collapsed="true">
+    <Position X="19.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAEAAAYAgAAgAAAAAAAhAAAAABACA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_3" Collapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIIAAAAAAIAAACCAAAAAAAEAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_4" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAAIAAEDEAgIAAABAAAgAAABAoAAAAAgAgA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_6" Collapsed="true">
+    <Position X="1.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEAAAAAAAAAAQAAAAAAAACAIABAIAAAgAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_7" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIIAAAAgIAAAACCAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_8" Collapsed="true">
+    <Position X="5.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAQAAAIEAJAAgAgAAAgAAAAAAIAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_9" Collapsed="true">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_10" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQAAAAAAAAAAAAAAAIAAAIAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_12" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stbi_gif_lzw_struct" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAgAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stbi_gif_struct" Collapsed="true">
+    <Position X="9.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEICAgAIAAARAQAgAEBAYAAgAAAAQAggAAAAJAQ=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0021_2" Collapsed="true">
+    <Position X="1.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_1" Collapsed="true">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCDAAAAAAAAEAAABAAAAAmAAAAAACABAAABsAwA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_2" Collapsed="true">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_3" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAEAABAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_4" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_5" Collapsed="true">
+    <Position X="1.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAIAAAgAFAAEAABCAAIAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="uint8" Collapsed="true">
+    <Position X="22" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint16" Collapsed="true">
+    <Position X="25.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int16" Collapsed="true">
+    <Position X="23.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint32" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int32" Collapsed="true">
+    <Position X="25.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="validate_uint32" Collapsed="true">
+    <Position X="23.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi" Collapsed="true">
+    <Position X="19.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huffman" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_dequantize_t" Collapsed="true">
+    <Position X="22" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="resample_row_func" Collapsed="true">
+    <Position X="27.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_resample" Collapsed="true">
+    <Position X="1.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zhuffman" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zbuf" Collapsed="true">
+    <Position X="5.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="chunk" Collapsed="true">
+    <Position X="15.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="png" Collapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pic_packet_t" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_gif_lzw" Collapsed="true">
+    <Position X="13.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_gif" Collapsed="true">
+    <Position X="9.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_uc" Collapsed="true">
+    <Position X="25.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_io_callbacks" Collapsed="true">
+    <Position X="1.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_idct_8x8" Collapsed="true">
+    <Position X="23.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stbi_YCbCr_to_RGB_run" Collapsed="true">
+    <Position X="27.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vec3_t" Collapsed="true">
+    <Position X="25.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="md2_t" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vertex_t" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="frame_t" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="anim_t" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="animState_t" Collapsed="true">
+    <Position X="1.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="animType_t" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BYTE" Collapsed="true">
+    <Position X="22" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0020_2" Collapsed="true">
+    <Position X="23.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0020_11" Collapsed="true">
+    <Position X="22" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAIAAABAAAAAAAACAAAAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0021_1" Collapsed="true">
+    <Position X="25.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAABAAAAAAAAAAEAAABAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Texture\Texture Loader\stb_image.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0011_6" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgIAAQAgAAAgAAAAgAAgAQAoACAAAAJQEAIEAAAAAA=</HashCode>
+      <FileName>MD2Model\md2model.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

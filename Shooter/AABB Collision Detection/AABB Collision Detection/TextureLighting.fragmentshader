@@ -1,0 +1,64 @@
+#version 120
+
+// input data
+varying vec3 position_worldspace;
+varying vec3 normal_worldspace;
+varying vec2 TexCoord;
+
+uniform vec3 LightPosition_worldspace;
+uniform vec3 EyePosition_worldspace;
+uniform vec3 ambientLight;
+uniform vec3 ambientcolor;
+uniform vec3 difcolor;
+uniform vec3 speccolor;
+uniform sampler2D myTextureSampler;
+uniform int mode;
+
+
+vec3 CalculateLight();
+
+void main()
+{
+
+	vec4 textureColor = texture2D( myTextureSampler, TexCoord );
+	if(mode == 1)
+	{
+		gl_FragColor = textureColor;
+	}
+	else
+	{
+		vec3 lightingColor = CalculateLight();
+
+		gl_FragColor = textureColor*vec4(lightingColor,1);
+	}
+	
+}
+
+vec3 CalculateLight()
+{
+
+
+	// Diffuse light calculations.
+	vec3 lightVector = normalize(LightPosition_worldspace - position_worldspace);
+	float brightness = dot(lightVector,normal_worldspace);
+	vec3 diffuseLight = brightness*difcolor;
+	diffuseLight = clamp(diffuseLight,0,1);
+	
+	
+	//Specular light calculations.
+	vec3 reflectedLightVector = reflect(-lightVector,normal_worldspace);
+	vec3 eyeDirectionVector = normalize(EyePosition_worldspace - position_worldspace);
+
+	float specularity = dot(reflectedLightVector,eyeDirectionVector);
+	specularity = clamp(specularity,0,1);
+	float specularExponent = 50;
+	specularity = pow(specularity,specularExponent);
+	vec3 specularLight = specularity*speccolor;
+//	specularLight= clamp(specularLight,0,1);
+
+	vec3 Newambient = ambientLight * ambientcolor;
+	//ambientLight = 
+
+	vec3 lightColor = Newambient + diffuseLight + specularLight;
+	return lightColor;
+}
